@@ -8,7 +8,7 @@ on top of the original JavaScript library to make it compatible with importing i
 ```deno
 import {
   Interpreter,
-} from https://raw.githubusercontent.com/yorinasub17/JS-Interpreter-deno/v0.0.1/int.ts
+} from https://raw.githubusercontent.com/yorinasub17/JS-Interpreter-deno/v0.0.1/mod.ts
 
 const myCode = 'var a=1; for(var i=0;i<4;i++){a*=i;} a;';
 const myInterpreter = new Interpreter(myCode);
