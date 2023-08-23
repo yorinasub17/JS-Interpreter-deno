@@ -1,8 +1,8 @@
-import "https://raw.githubusercontent.com/NeilFraser/JS-Interpreter/10a8cf5e613834b5d36655c1921f818455fc324a/interpreter.js";
+import "https://raw.githubusercontent.com/NeilFraser/JS-Interpreter/cbc4bc1850e3ca639bd1d8864b641b23e05fc813/interpreter.js";
 // NOTE:
 // We use the yorinasub17 fork for acorn to support Deno. The upstream repo uses this instead of globalThis, which
 // causes Deno to error.
-import "https://raw.githubusercontent.com/yorinasub17/JS-Interpreter/compat-10a8cf5/acorn.js";
+import "https://raw.githubusercontent.com/yorinasub17/JS-Interpreter/compat-cbc4bc1/acorn.js";
 
 declare global {
   // deno-lint-ignore no-explicit-any no-var
